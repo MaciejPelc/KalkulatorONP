@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417285598336",
+    "project_id": "nauka-od-zera",
+    "storage_bucket": "nauka-od-zera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417285598336:android:0fa1a926b15070603bca65",
+        "android_client_info": {
+          "package_name": "com.macius.apka_do_nauki_od_zera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417285598336-ljo8pcc2tpgl0s9q5gl776hprhp7t36n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkasYHOCgNAMJK50sz79GcwzmdafUHfk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417285598336-ljo8pcc2tpgl0s9q5gl776hprhp7t36n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
