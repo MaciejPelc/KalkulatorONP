@@ -1,0 +1,169 @@
+\hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator}{}\doxysection{super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator Class Reference}
+\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator}\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a1eb2cd1583f9eab1995483ea23606e12}{to\+RPN}} (string infix)
+\begin{DoxyCompactList}\small\item\em algorytm manewrowy stoczni. Stworzony przez Edsgera Dijkstre. Implementacja Maciej Pelc \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_aa960a6a2795104d758f3592fb219953c}{from\+RPN}} (string postfix)
+\begin{DoxyCompactList}\small\item\em Algorytm konwersji zapisu posfiksowego na wynik \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a9235b8747f537339091ef0ea0f0efc6d}{translate\+To\+Server}} (string infix)
+\begin{DoxyCompactList}\small\item\em metoda szyfrowania zapisu na serwer \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a71931f0a16f076c0b1e9f0b33a312836}{translate\+In\+Server}} (string encrypted)
+\begin{DoxyCompactList}\small\item\em metoda rozszyfrowania zapisu przychodzą \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a3830ca4c5aef33a7b9301d6b90657799}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a705534ca8bbfd5d81e1171c53a1a3228}{evalrpn}} (Stack$<$ string $>$ tks)
+\begin{DoxyCompactList}\small\item\em Metoda pomocnicza do \char`\"{}from\+RPN\char`\"{} obliczająca \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 8 of file Program.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a705534ca8bbfd5d81e1171c53a1a3228}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a705534ca8bbfd5d81e1171c53a1a3228}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!evalrpn@{evalrpn}}
+\index{evalrpn@{evalrpn}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{evalrpn()}{evalrpn()}}
+{\footnotesize\ttfamily static double super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+evalrpn (\begin{DoxyParamCaption}\item[{Stack$<$ string $>$}]{tks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Metoda pomocnicza do \char`\"{}from\+RPN\char`\"{} obliczająca 
+
+
+
+Definition at line 142 of file Program.\+cs.
+
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_aa960a6a2795104d758f3592fb219953c}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_aa960a6a2795104d758f3592fb219953c}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!fromRPN@{fromRPN}}
+\index{fromRPN@{fromRPN}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{fromRPN()}{fromRPN()}}
+{\footnotesize\ttfamily static string super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+from\+RPN (\begin{DoxyParamCaption}\item[{string}]{postfix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Algorytm konwersji zapisu posfiksowego na wynik 
+
+\begin{DoxyReturn}{Returns}
+Zwracany wynik operacji 
+\end{DoxyReturn}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{-\/16}
+
+\end{DoxyCode}
+ 
+
+http\+://www.\+math.\+bas.\+bg/bantchev/place/rpn/rpn.\+c\%23.\+html 
+
+Definition at line 117 of file Program.\+cs.
+
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a3830ca4c5aef33a7b9301d6b90657799}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a3830ca4c5aef33a7b9301d6b90657799}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!Main@{Main}}
+\index{Main@{Main}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 202 of file Program.\+cs.
+
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a1eb2cd1583f9eab1995483ea23606e12}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a1eb2cd1583f9eab1995483ea23606e12}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!toRPN@{toRPN}}
+\index{toRPN@{toRPN}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{toRPN()}{toRPN()}}
+{\footnotesize\ttfamily static string super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+to\+RPN (\begin{DoxyParamCaption}\item[{string}]{infix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+algorytm manewrowy stoczni. Stworzony przez Edsgera Dijkstre. Implementacja Maciej Pelc 
+
+\begin{DoxyReturn}{Returns}
+Zwracany jest zapis postfiksowy 
+\end{DoxyReturn}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{4 5 7 2 + -\/ *}
+
+\end{DoxyCode}
+ 
+
+https\+://www.\+szkolazpasja.\+pl/onp-\/np-\/notacja-\/infiksowa/ stos trzymający operatory, które nie zostaną dodane do zmiennej output 
+
+A queue Q to hold the final reverse polish notation. 
+
+słownik, zapisywane są w nim priorytety operatorów 
+
+zmienna wykorzystywana do przechowywania liczb pona
+
+Pętla główna algorytmu kolejkowego rozbija zapis infiksowy w stringu na postfix 
+
+dodanie do output pozostałych operatorów, nie uwzględnionych w głównej pętli 
+
+Definition at line 22 of file Program.\+cs.
+
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a71931f0a16f076c0b1e9f0b33a312836}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a71931f0a16f076c0b1e9f0b33a312836}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!translateInServer@{translateInServer}}
+\index{translateInServer@{translateInServer}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{translateInServer()}{translateInServer()}}
+{\footnotesize\ttfamily static string super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+translate\+In\+Server (\begin{DoxyParamCaption}\item[{string}]{encrypted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+metoda rozszyfrowania zapisu przychodzą 
+
+\begin{DoxyReturn}{Returns}
+Zwraca zapis gotowy do wysłania na serwer 
+\end{DoxyReturn}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{przykładowo: 0qtt5w63yq4q2q5r61wt8q16r4ye2rt22q11yy}
+
+\end{DoxyCode}
+ 
+
+Definition at line 191 of file Program.\+cs.
+
+\mbox{\Hypertarget{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a9235b8747f537339091ef0ea0f0efc6d}\label{classsuper_fajny_kalkulator_podejscie2_1_1_calculator_a9235b8747f537339091ef0ea0f0efc6d}} 
+\index{superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}!translateToServer@{translateToServer}}
+\index{translateToServer@{translateToServer}!superFajnyKalkulatorPodejscie2.Calculator@{superFajnyKalkulatorPodejscie2.Calculator}}
+\doxysubsubsection{\texorpdfstring{translateToServer()}{translateToServer()}}
+{\footnotesize\ttfamily static string super\+Fajny\+Kalkulator\+Podejscie2.\+Calculator.\+translate\+To\+Server (\begin{DoxyParamCaption}\item[{string}]{infix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+metoda szyfrowania zapisu na serwer 
+
+\begin{DoxyReturn}{Returns}
+Zwraca zapis gotowy do wysłania na serwer 
+\end{DoxyReturn}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{przykładowo: 0qtt5w63yq4q2q5r61wt8q16r4ye2rt22q11yy}
+
+\end{DoxyCode}
+ 
+
+Definition at line 169 of file Program.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Kalkulator5.\+0/\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}

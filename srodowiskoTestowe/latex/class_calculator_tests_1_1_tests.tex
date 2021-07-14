@@ -1,0 +1,278 @@
+\hypertarget{class_calculator_tests_1_1_tests}{}\doxysection{Calculator\+Tests.\+Tests Class Reference}
+\label{class_calculator_tests_1_1_tests}\index{CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a880549a54353463bbe3563382020388a}{Setup}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a77d52bacbdc8cb86214fc5e751de5640}{Calculator\+To\+RPN\+\_\+\+Addition\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a30f90eb2ec47617b4c89b15b16baee0f}{Calculator\+To\+RPN\+\_\+\+Substract\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a715077d020b643387d17e61dbff5e04d}{Calculator\+To\+RPN\+\_\+\+Division\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a30b40bf345a47be59ee46d2ebd01fa3d}{Calculator\+To\+RPN\+\_\+\+Multiplication\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a4fda9e16b2d3fe74cec71cd8c1f51872}{Calculator\+From\+RPN\+\_\+\+Addition\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a901de764380e7d5f2d0926a1addbafe0}{Calculator\+From\+RPN\+\_\+\+Substract\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a6a9e636c0b764718d06bb9c1f5a650e0}{Calculator\+From\+RPN\+\_\+\+Division\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a4cb2c45256edb896bcd4ddd2ee01f118}{Calculator\+From\+RPN\+\_\+\+Multiplication\+\_\+\+Infix\+Equal\+To\+Postfix}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_a55c78f71d06f3a81a6d888fde7ba0272}{Calculator\+\_\+\+Translate\+To\+Server\+\_\+\+Convert\+Operators}} ()
+\item 
+void \mbox{\hyperlink{class_calculator_tests_1_1_tests_aed56aef0475c76557bf0bc0a30f6da15}{Calculator\+\_\+\+Translate\+In\+Server\+\_\+\+Convert\+Operators}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a3ce0a4e7dd6c05a892412c30a2892f41}{addition\+Infix}} = \char`\"{}13 -\/ (12 $\ast$ 15) + 2\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_ac5762ddb3e49c5226efbeb5976cd50be}{addition\+Postfix}} = \char`\"{}13,12,15,$\ast$,-\/,2,+,\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a5f0a706269339fe6e330ce6d100bceea}{substract\+Infix}} = \char`\"{}(13+(12$\ast$15))-\/100\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a398b008ecb72845f8fc32481cabf23c7}{substract\+Postfix}} = \char`\"{}13,12,15,$\ast$,+,100,-\/,\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a3e0627afd6666a0937f2075e101c3635}{division\+Infix}} = \char`\"{}(13+(12$\ast$15))/93\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a9369657aa7082c84b1984334c036e1ed}{division\+Postfix}} = \char`\"{}13,12,15,$\ast$,+,93,/,\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a338e37ad5f2343ef57219350989fa55a}{multiplication\+Infix}} = \char`\"{}2+2$\ast$2\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a54eb6e69481d1f4ebe1eb47b5ec5e7bb}{multiplication\+Postfix}} = \char`\"{}2,2,2,$\ast$,+,\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_aec2914043fdd746f1233c0219d455dea}{infix\+To\+Translator}} = \char`\"{}0-\/((5+63)-\/4-\/2-\/5$\ast$61+(8-\/16$\ast$4)/2$\ast$(22-\/11))\char`\"{}
+\item 
+string \mbox{\hyperlink{class_calculator_tests_1_1_tests_a2039af2a7b374921dc469ccf27ec8430}{encrypted}} = \char`\"{}0qtt5w63yq4q2q5r61wt8q16r4ye2rt22q11yy\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Calculator\+Test.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_aed56aef0475c76557bf0bc0a30f6da15}\label{class_calculator_tests_1_1_tests_aed56aef0475c76557bf0bc0a30f6da15}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!Calculator\_TranslateInServer\_ConvertOperators@{Calculator\_TranslateInServer\_ConvertOperators}}
+\index{Calculator\_TranslateInServer\_ConvertOperators@{Calculator\_TranslateInServer\_ConvertOperators}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{Calculator\_TranslateInServer\_ConvertOperators()}{Calculator\_TranslateInServer\_ConvertOperators()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+\_\+\+Translate\+In\+Server\+\_\+\+Convert\+Operators (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 123 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a55c78f71d06f3a81a6d888fde7ba0272}\label{class_calculator_tests_1_1_tests_a55c78f71d06f3a81a6d888fde7ba0272}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!Calculator\_TranslateToServer\_ConvertOperators@{Calculator\_TranslateToServer\_ConvertOperators}}
+\index{Calculator\_TranslateToServer\_ConvertOperators@{Calculator\_TranslateToServer\_ConvertOperators}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{Calculator\_TranslateToServer\_ConvertOperators()}{Calculator\_TranslateToServer\_ConvertOperators()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+\_\+\+Translate\+To\+Server\+\_\+\+Convert\+Operators (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 112 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a4fda9e16b2d3fe74cec71cd8c1f51872}\label{class_calculator_tests_1_1_tests_a4fda9e16b2d3fe74cec71cd8c1f51872}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorFromRPN\_Addition\_InfixEqualToPostfix@{CalculatorFromRPN\_Addition\_InfixEqualToPostfix}}
+\index{CalculatorFromRPN\_Addition\_InfixEqualToPostfix@{CalculatorFromRPN\_Addition\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorFromRPN\_Addition\_InfixEqualToPostfix()}{CalculatorFromRPN\_Addition\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+From\+RPN\+\_\+\+Addition\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 68 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a6a9e636c0b764718d06bb9c1f5a650e0}\label{class_calculator_tests_1_1_tests_a6a9e636c0b764718d06bb9c1f5a650e0}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorFromRPN\_Division\_InfixEqualToPostfix@{CalculatorFromRPN\_Division\_InfixEqualToPostfix}}
+\index{CalculatorFromRPN\_Division\_InfixEqualToPostfix@{CalculatorFromRPN\_Division\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorFromRPN\_Division\_InfixEqualToPostfix()}{CalculatorFromRPN\_Division\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+From\+RPN\+\_\+\+Division\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 90 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a4cb2c45256edb896bcd4ddd2ee01f118}\label{class_calculator_tests_1_1_tests_a4cb2c45256edb896bcd4ddd2ee01f118}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix@{CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix}}
+\index{CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix@{CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix()}{CalculatorFromRPN\_Multiplication\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+From\+RPN\+\_\+\+Multiplication\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 101 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a901de764380e7d5f2d0926a1addbafe0}\label{class_calculator_tests_1_1_tests_a901de764380e7d5f2d0926a1addbafe0}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorFromRPN\_Substract\_InfixEqualToPostfix@{CalculatorFromRPN\_Substract\_InfixEqualToPostfix}}
+\index{CalculatorFromRPN\_Substract\_InfixEqualToPostfix@{CalculatorFromRPN\_Substract\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorFromRPN\_Substract\_InfixEqualToPostfix()}{CalculatorFromRPN\_Substract\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+From\+RPN\+\_\+\+Substract\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 79 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a77d52bacbdc8cb86214fc5e751de5640}\label{class_calculator_tests_1_1_tests_a77d52bacbdc8cb86214fc5e751de5640}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorToRPN\_Addition\_InfixEqualToPostfix@{CalculatorToRPN\_Addition\_InfixEqualToPostfix}}
+\index{CalculatorToRPN\_Addition\_InfixEqualToPostfix@{CalculatorToRPN\_Addition\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorToRPN\_Addition\_InfixEqualToPostfix()}{CalculatorToRPN\_Addition\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+To\+RPN\+\_\+\+Addition\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 24 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a715077d020b643387d17e61dbff5e04d}\label{class_calculator_tests_1_1_tests_a715077d020b643387d17e61dbff5e04d}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorToRPN\_Division\_InfixEqualToPostfix@{CalculatorToRPN\_Division\_InfixEqualToPostfix}}
+\index{CalculatorToRPN\_Division\_InfixEqualToPostfix@{CalculatorToRPN\_Division\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorToRPN\_Division\_InfixEqualToPostfix()}{CalculatorToRPN\_Division\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+To\+RPN\+\_\+\+Division\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 46 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a30b40bf345a47be59ee46d2ebd01fa3d}\label{class_calculator_tests_1_1_tests_a30b40bf345a47be59ee46d2ebd01fa3d}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorToRPN\_Multiplication\_InfixEqualToPostfix@{CalculatorToRPN\_Multiplication\_InfixEqualToPostfix}}
+\index{CalculatorToRPN\_Multiplication\_InfixEqualToPostfix@{CalculatorToRPN\_Multiplication\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorToRPN\_Multiplication\_InfixEqualToPostfix()}{CalculatorToRPN\_Multiplication\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+To\+RPN\+\_\+\+Multiplication\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 57 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a30f90eb2ec47617b4c89b15b16baee0f}\label{class_calculator_tests_1_1_tests_a30f90eb2ec47617b4c89b15b16baee0f}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!CalculatorToRPN\_Substract\_InfixEqualToPostfix@{CalculatorToRPN\_Substract\_InfixEqualToPostfix}}
+\index{CalculatorToRPN\_Substract\_InfixEqualToPostfix@{CalculatorToRPN\_Substract\_InfixEqualToPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{CalculatorToRPN\_Substract\_InfixEqualToPostfix()}{CalculatorToRPN\_Substract\_InfixEqualToPostfix()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Calculator\+To\+RPN\+\_\+\+Substract\+\_\+\+Infix\+Equal\+To\+Postfix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 35 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a880549a54353463bbe3563382020388a}\label{class_calculator_tests_1_1_tests_a880549a54353463bbe3563382020388a}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!Setup@{Setup}}
+\index{Setup@{Setup}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{Setup()}{Setup()}}
+{\footnotesize\ttfamily void Calculator\+Tests.\+Tests.\+Setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 19 of file Calculator\+Test.\+cs.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a3ce0a4e7dd6c05a892412c30a2892f41}\label{class_calculator_tests_1_1_tests_a3ce0a4e7dd6c05a892412c30a2892f41}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!additionInfix@{additionInfix}}
+\index{additionInfix@{additionInfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{additionInfix}{additionInfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+addition\+Infix = \char`\"{}13 -\/ (12 $\ast$ 15) + 2\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 8 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_ac5762ddb3e49c5226efbeb5976cd50be}\label{class_calculator_tests_1_1_tests_ac5762ddb3e49c5226efbeb5976cd50be}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!additionPostfix@{additionPostfix}}
+\index{additionPostfix@{additionPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{additionPostfix}{additionPostfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+addition\+Postfix = \char`\"{}13,12,15,$\ast$,-\/,2,+,\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 9 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a3e0627afd6666a0937f2075e101c3635}\label{class_calculator_tests_1_1_tests_a3e0627afd6666a0937f2075e101c3635}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!divisionInfix@{divisionInfix}}
+\index{divisionInfix@{divisionInfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{divisionInfix}{divisionInfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+division\+Infix = \char`\"{}(13+(12$\ast$15))/93\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 12 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a9369657aa7082c84b1984334c036e1ed}\label{class_calculator_tests_1_1_tests_a9369657aa7082c84b1984334c036e1ed}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!divisionPostfix@{divisionPostfix}}
+\index{divisionPostfix@{divisionPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{divisionPostfix}{divisionPostfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+division\+Postfix = \char`\"{}13,12,15,$\ast$,+,93,/,\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 13 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a2039af2a7b374921dc469ccf27ec8430}\label{class_calculator_tests_1_1_tests_a2039af2a7b374921dc469ccf27ec8430}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!encrypted@{encrypted}}
+\index{encrypted@{encrypted}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{encrypted}{encrypted}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+encrypted = \char`\"{}0qtt5w63yq4q2q5r61wt8q16r4ye2rt22q11yy\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 17 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_aec2914043fdd746f1233c0219d455dea}\label{class_calculator_tests_1_1_tests_aec2914043fdd746f1233c0219d455dea}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!infixToTranslator@{infixToTranslator}}
+\index{infixToTranslator@{infixToTranslator}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{infixToTranslator}{infixToTranslator}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+infix\+To\+Translator = \char`\"{}0-\/((5+63)-\/4-\/2-\/5$\ast$61+(8-\/16$\ast$4)/2$\ast$(22-\/11))\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 16 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a338e37ad5f2343ef57219350989fa55a}\label{class_calculator_tests_1_1_tests_a338e37ad5f2343ef57219350989fa55a}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!multiplicationInfix@{multiplicationInfix}}
+\index{multiplicationInfix@{multiplicationInfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{multiplicationInfix}{multiplicationInfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+multiplication\+Infix = \char`\"{}2+2$\ast$2\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 14 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a54eb6e69481d1f4ebe1eb47b5ec5e7bb}\label{class_calculator_tests_1_1_tests_a54eb6e69481d1f4ebe1eb47b5ec5e7bb}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!multiplicationPostfix@{multiplicationPostfix}}
+\index{multiplicationPostfix@{multiplicationPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{multiplicationPostfix}{multiplicationPostfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+multiplication\+Postfix = \char`\"{}2,2,2,$\ast$,+,\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 15 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a5f0a706269339fe6e330ce6d100bceea}\label{class_calculator_tests_1_1_tests_a5f0a706269339fe6e330ce6d100bceea}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!substractInfix@{substractInfix}}
+\index{substractInfix@{substractInfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{substractInfix}{substractInfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+substract\+Infix = \char`\"{}(13+(12$\ast$15))-\/100\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 10 of file Calculator\+Test.\+cs.
+
+\mbox{\Hypertarget{class_calculator_tests_1_1_tests_a398b008ecb72845f8fc32481cabf23c7}\label{class_calculator_tests_1_1_tests_a398b008ecb72845f8fc32481cabf23c7}} 
+\index{CalculatorTests.Tests@{CalculatorTests.Tests}!substractPostfix@{substractPostfix}}
+\index{substractPostfix@{substractPostfix}!CalculatorTests.Tests@{CalculatorTests.Tests}}
+\doxysubsubsection{\texorpdfstring{substractPostfix}{substractPostfix}}
+{\footnotesize\ttfamily string Calculator\+Tests.\+Tests.\+substract\+Postfix = \char`\"{}13,12,15,$\ast$,+,100,-\/,\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 11 of file Calculator\+Test.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Calculator\+Tests/\mbox{\hyperlink{_calculator_test_8cs}{Calculator\+Test.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,54 @@
+pseudo kod dla algorytmu Edsgera Dijkstry, algorytmu manewrowego stoczni
+
+string sum;//zmienna dla liczb więcej niż 1 cyfrowych
+string infix;//wejście
+stos S;//stos dla operatorów, stos jest pomocniczy
+string output;//ostateczny zapis posfixowy
+//słownik, w nim zapisane jest waga używanych w zamianie operatorów
+Dictionary op = ('/',5) + ('*',5) + ('+',4) + ('-',4) + ('(',0);
+
+
+for(dlaKazdegoElementu infix, increment i)
+{
+	if(infix[i] == '(')
+	{
+		//przypisuje tutaj do wyjścia pełną liczbę
+		if(jeżeli sum nie jest puste)
+			output +=sum; sum = "";
+
+		S.push(infix[i]); // puszuje lewy nawias na stos pomocniczy
+	}
+	else if (infix[i] == ')')
+	{
+		//przypisuje tutaj do wyjścia pełną liczbę
+		if(jeżeli sum nie jest puste)
+			output +=sum; sum = "";
+
+		//opróżniaj do spotkania lewego nawiasu
+		while(S.Peek() != '(')
+			output += S.Pop();
+	}
+	else if (infix[i] == operatorMatematyczny)
+	{
+		//przypisuje tutaj do wyjścia pełną liczbę
+		if(jeżeli sum nie jest puste)
+			output +=sum; sum = "";
+
+		while(dopóki na górze stosu znajduje sie operator taki że jest
+			lewostronnie łączny i jego kolejność wykonywania mniejsza lub
+			równakolejnosci wykonywania)
+		{
+			output += S.Pop();
+		}
+		S.Push(infix[i]);
+	}
+	else if (infix[i] == cyfra)
+		sum += infix[i];//każda cyfra jest zapisywana do sum, to tak liczby powstają
+}
+//przypisuje tutaj do wyjścia pełną liczbę
+if(jeżeli sum nie jest puste)
+	output +=sum; sum = "";
+
+//wszystko z S co zostało, ląduje w output
+while(!S.Empty)
+	output = S.Pop();
